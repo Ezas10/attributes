@@ -1,0 +1,136 @@
+
+:root{
+    --ancolor:white;
+    --decor:none;
+    --bradius:5px;
+    --bcolor:gray;
+    --grid:linear-gradient(to right,yellow,red);
+    --radial:radial-gradient(circle, white,skyblue);
+    
+}
+.parent{
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    gap: 70rem;
+    padding-left: 20px;
+
+}
+.one{
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+}
+a{
+    color: var(--anchor);
+    text-decoration: var(--decor);
+    background-color: var(--bradius);
+}
+.one a:hover{
+    background-color: var(--bcolor);
+    cursor: pointer;
+    
+}
+.main4{
+    display: flex;
+
+}
+.main{
+
+background: var(--grid);
+width: 80%;
+height: 300px;
+margin-top: 10px;
+margin: 15px;
+padding-left: 20px;
+padding-top: 30px;
+font-size: large;
+
+
+
+}
+.main1{
+    display: flex;
+}
+.box{
+    width: 80px;
+    height: 50px;
+    padding: 80px;
+    background-color: var(--bcolor);
+    
+}
+.main3{
+ 
+ 
+ background: var(--radial);
+ width: 20%;
+ margin-left: -14px;
+ height: 330px;
+ margin-top: 15px;
+ display: grid;
+ font-size: large;
+ 
+
+}
+.main3 a{
+    color: blue;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+.image1{
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+}
+.subimg{
+    width: 200px;
+    height: 120px;
+    background-color:gray;
+    text-align: center;
+    padding-top: 70px;
+}
+.subimg p{
+    width: 70px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    margin-top: 70px;
+}
+.mahi{
+    display: flex;
+    gap: 30px;
+}
+
+.input{
+    margin-top: 30px;
+    font-size: large;
+    
+}
+#name{
+    width: 90rem;
+}
+#email{
+    width: 90rem;
+}
+#submit{
+    width: 90rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 40px;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color:gray;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 25px;
+    padding-top: 5px;
+}
